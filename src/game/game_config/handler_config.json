@@ -1,0 +1,23 @@
+{
+  "opp_turn_sleep": 1,
+  "board_size": [680, 540],
+  "board_center": [460, 440],
+  "circle_radius": 35,
+  "nrows": 6,
+  "ncols": 7,
+  "inrow": 4,
+  "margin": 15,
+  "board_colour": [51, 102, 255],
+  "colour1": [222, 51, 20],
+  "colour2": [227, 200, 0],
+  "empty_cell_colour": [255, 255, 255],
+  "restart_button_text_color": [0, 0, 0],
+  "new_game_button_color": [0, 204, 255],
+  "policy_info_font_size": 35,
+  "policy_info_font_colour": [0, 0, 0],
+  "tie_text": "This game is a draw!",
+  "n_turns_behind_text": " (-{n})",
+  "winning_line_colour": [255, 255, 255],
+  "winning_line_width": 5,
+  "highlight_position_colour": [150, 150, 150]
+}

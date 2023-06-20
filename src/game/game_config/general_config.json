@@ -1,0 +1,9 @@
+{
+  "game_caption": "~ CONNECT 4 GAME ~",
+  "screen_size": [920, 780],
+  "pygame_tick": 60,
+  "screen_colour": [255, 255, 255],
+  "font_name": "comicsans",
+  "font_size": 50,
+  "font_colour": [0, 0, 0]
+}
