@@ -1,0 +1,7 @@
+{
+  "conv_block": [[192,4,0], "relu", [192,2,0], "relu"],
+  "fc_block": [192, "relu"],
+  "first_head": [192, "relu", 7],
+  "second_head": [192, "relu", 1],
+  "name": "cnet192"
+}

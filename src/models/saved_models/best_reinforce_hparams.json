@@ -1,0 +1,16 @@
+{
+    "reward_backprop_exponent": 3,
+    "avg_symmetric_probs": true,
+    "model_arch_path": "./src/models/architectures/cnet128.json",
+    "load_weights_path": "./src/models/saved_models/supervised_cnet128.pt",
+    "freeze_conv_block": true,
+    "loss_log_every": 40,
+    "comp_every": 200,
+    "vs_1StepLA_win_rate_decrease_to_undo_updates": 0.08,
+    "moving_avg": 100,
+    "c1": 0.75,
+    "num_episodes": 10000,
+    "gamma": 0.95,
+    "weight_decay": 1e-3,
+    "lr": 0.0005
+}

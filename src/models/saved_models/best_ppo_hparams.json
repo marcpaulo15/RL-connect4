@@ -1,0 +1,20 @@
+{
+    "buffer_capacity": 2000,
+    "reward_backprop_exponent": 3,
+    "model_arch_path": "./src/models/architectures/cnet128.json",
+    "pretrained_model_weights": "./src/models/saved_models/supervised_cnet128.pt",
+    "freeze_conv_block": true,
+    "loss_log_every": 1,
+    "comp_every": 5,
+    "vs_1StepLA_win_rate_decrease_to_undo_updates": 0.08,
+    "mov_avg": 100,
+    "num_iterations": 320,
+    "clip_param": 0.2,
+    "ppo_epoch": 5,
+    "c1": 0.75,
+    "c2": 0.04,
+    "batch_size": 32,
+    "gamma": 0.95,
+    "weight_decay": 0.00005,
+    "lr": 0.0001
+}
