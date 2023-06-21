@@ -1,0 +1,7 @@
+{
+  "conv_block": [[32,4,0], "relu", [64,3,0], "tanh"],
+  "fc_block": [64, "relu"],
+  "first_head": [32, "relu", 7],
+  "second_head": [16, "relu", 1],
+  "name": "test_net({n_params})"
+}
