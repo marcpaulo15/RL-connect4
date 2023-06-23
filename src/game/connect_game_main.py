@@ -1,4 +1,3 @@
-import os
 import json
 import copy
 
@@ -9,8 +8,6 @@ from src.game.game_logic.connect_game_handler import ConnectGameHandler
 
 
 if __name__ == "__main__":
-    # YOUR PATH
-    os.chdir('/home/marc/Escritorio/RL-connect4')
 
     # 1) load the configuration files
     with open(ConnectGameMenu.general_config_path, 'r') as config_file:
