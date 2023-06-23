@@ -5,12 +5,16 @@ Here we explain the steps to follow in order to play Connect4 against our traine
 
 **(1)** Open a Terminal and go to the directory where you want to clone the repository.
 
-```cd <YOUR PATH>```
+```
+cd <YOUR PATH>
+```
 
 
 **(2)** Clone the Github repository
 
-```git clone https://github.com/marcpaulo15/RL-connect4```
+```
+git clone https://github.com/marcpaulo15/RL-connect4
+```
 
 
 **(3)** Create and activate a Python virtual environment. Install the requirements.
@@ -39,7 +43,9 @@ ModuleNotFoundError: No module named 'src'
 
 **(5)** Run the Python code to play the game
 
-```python3 src/game/connect_game_main.py```
+```
+python3 src/game/connect_game_main.py
+```
 
 
 **(SHORTCUT)** If you already have the code and the environment, you can run:
